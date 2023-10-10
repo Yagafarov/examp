@@ -1,0 +1,14 @@
+:root{
+    --dark:#202020;
+    --shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn{
+    all:unset;
+    margin: 3rem;
+    background-color: var(--dark);
+    color:white;
+    padding: 0.8rem 2rem;
+    border-radius: 6px;
+    box-shadow: var(--shadow);
+}
