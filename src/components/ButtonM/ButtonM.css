@@ -11,4 +11,8 @@
     padding: 0.8rem 2rem;
     border-radius: 6px;
     box-shadow: var(--shadow);
+    cursor: pointer;
+}
+.btn:active{
+    box-shadow: none;
 }

@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './ButtonM.css'
 const ButtonM = ({children}) => {
+
+
   return (
-    <button className='btn' >{children}</button>
+    <button className='btn' ><span>{children}</span></button>
   )
 }
 
